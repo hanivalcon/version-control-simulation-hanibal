@@ -2,7 +2,7 @@
 
 ## Creating and managing branches
 
-I created an empty GitHub repository named `version-control-simulation-hanivalcon`, without a README, and cloned it. An empty clone has no commits, so `main` did not exist yet and `git checkout main` would have failed. To fix this I made an initial commit on `main` with a README. Then I branched `feature/header` from `main` and built `index.html` with a header and a navigation bar. Next I switched back to `main` and created `feature/footer`, which added a footer. Because both branches started from the same commit, the two features were developed in isolation, as two teammates would work. I used commit messages that say what changed, such as "Added header section to index.html".
+I created an empty GitHub repository named `version-control-simulation-hanibal`, without a README, and cloned it. An empty clone has no commits, so `main` did not exist yet and `git checkout main` would have failed. To fix this I made an initial commit on `main` with a README. Then I branched `feature/header` from `main` and built `index.html` with a header and a navigation bar. Next I switched back to `main` and created `feature/footer`, which added a footer. Because both branches started from the same commit, the two features were developed in isolation, as two teammates would work. I used commit messages that say what changed, such as "Added header section to index.html".
 
 ## Handling the merge conflict
 
